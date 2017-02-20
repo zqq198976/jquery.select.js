@@ -27,7 +27,6 @@
             var $this = $(this);
             selectHtml = '';
             selectHtml += '<div class="select-body">';
-            //selectHtml += '<div class="select-body" style="left:'+$this.offset().left+'px;top:'+$this.offset().top+'px;">';
             selectHtml += '<div class="select-div" data-value='+$this.find(":selected").val()+'>'+ $this.find(":selected").text() +'</div>';
             selectHtml += '<ul class="select-ul">';
             $this.children("option").each(function(){
