@@ -28,7 +28,8 @@
     line-height: 36px;
     cursor: pointer;
     display: none;
-    /*padding: 0 20px 0 10px;*/
+    max-height: 180px;
+    overflow-y: auto;
 }
 .select-ul li{
     padding: 0 20px 0 10px;
