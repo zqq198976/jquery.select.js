@@ -1,0 +1,37 @@
+.select-body{
+    display: inline-block;
+    min-width: 100px;
+    vertical-align: top;
+}
+.select-div:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    margin-top: -2px;
+    border-top: 5px solid #666;
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent;
+}
+.select-div{
+    height: 30px;
+    line-height: 30px;
+    position: relative;
+    padding: 0 20px 0 10px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.select-ul{
+    line-height: 36px;
+    cursor: pointer;
+    display: none;
+    /*padding: 0 20px 0 10px;*/
+}
+.select-ul li{
+    padding: 0 20px 0 10px;
+}
+.select-ul li:hover{color:#fff;background:#6AA7EA;}
+.select-ul li.cur{color:#fff;background:#195DA3;}
